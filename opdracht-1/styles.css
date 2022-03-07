@@ -24,24 +24,24 @@ body {
 
 
 /* 1.4 Haal de text-decoration van navigatie-links weg, geef onbezochte links de kleur hsl(359, 79%, 56%) en verander de kleur wanneer de gebruiker er overheen hovert. */
-#linkjes {text-decoration: none;}
-#linkjes:link {color: hsl(359,79%,56%)}
-#linkjes:hover {color: hsl(300,70%,50%)}
+a[href^="#"]{text-decoration: none;}
+a[href^="#"]:link {color: hsl(359,79%,56%)}
+a[href^="#"]:hover {color: hsl(300,70%,50%)}
 
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
-.linkjes-header{text-decoration: none}
-.linkjes-header:link {color: hsl(359,79%,56%)}
-.linkjes-header:hover {color: hsl(300,70%,50%)}
-.linkjes-header:visited{color: hsl(200,79%,56%)}
+a[href^="https"]{text-decoration: none}
+a[href^="https"]:link {color: hsl(359,79%,56%)}
+a[href^="https"]:hover {color: hsl(300,70%,50%)}
+a[href^="https"]:visited{color: hsl(200,79%,56%)}
+
 
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
-
-
+#signup{background-color: crimson}
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
-
+#email:focus {border: hsl(200, 70%, 60%)}
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Noto Sans JP', sans-serif */
 
