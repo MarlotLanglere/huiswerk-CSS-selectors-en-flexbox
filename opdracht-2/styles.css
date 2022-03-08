@@ -3,3 +3,40 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /*deze laatste over align-items begrijp ik niet en werkt ook niet in mijn browser*/
+}
+
+/*opdracht 2.4*/
+
+#username{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+#password {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
